@@ -1,1 +1,4 @@
-# HeHe XD
+---
+layout: post
+title: HeHe XD
+---
