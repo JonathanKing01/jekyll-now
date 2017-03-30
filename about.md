@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi! My name is Jono King, and I am a software student come indie dev. I've been working on projects in and out of school and uni for a couple of years now and I've decided to set up a website to showcase some of my work. My main interests AI technology and Video Game design. You'll also find some of my uni work on this site.Any assignments or project that I think were interseting, that I'm allowed to upload, will go here.
+Hi! My name is Jono King, and I am a software student come indie dev. I've been working on projects in and out of school and uni for a couple of years now and I've decided to set up a website to showcase some of my work. My main interests include AI technology and Video Game design. You'll also find some of my uni work on this site: any assignments or projects that I think were interseting, that I'm allowed to upload, will go here.
 
 ### More Information
 
