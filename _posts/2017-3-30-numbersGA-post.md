@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Genetic Algorithm Demo Project
+excerpt: Genetic Algorithms are a type of intelligent system that seeks to model and solve problems by simulating the process of natural evolution. They are a wing of evolutionary computation, and can be used to solve many problems. Specifically they can be used to solve NP-hard problems such as the Job-Shop scheduling problem, which would not be easily solvable any other way. 
+After reading a chapter about genetic algorithms in Michael Negnevitky’s fantastic book about artificial intelligence, I decided to try write a small genetic algorithm myself. 
 ---
 
 Genetic Algorithms are a type of intelligent system that seeks to model and solve problems by simulating the process of natural evolution. They are a wing of evolutionary computation, and can be used to solve many problems. Specifically they can be used to solve NP-hard problems such as the Job-Shop scheduling problem, which would not be easily solvable any other way. 
 After reading a chapter about genetic algorithms in Michael Negnevitky’s fantastic book about artificial intelligence, I decided to try write a small genetic algorithm myself. 
-
-excerpt_separator
 
 It solves a trivial task, but follows the standard structures of a genetic algorithm, and solves the problem with an evolutionary approach. 
 The problem is this: given a target integer number, the algorithm must output a formula compromised of numbers and operators that will be equal in value to the target. For instance if we input the number 20, a valid output would be 2x8+4. Another would be 2x10, or 3x6+2. 
