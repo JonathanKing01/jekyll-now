@@ -30,6 +30,8 @@ The population size we pick will correlate to how many possible solutions, or â€
 
 Using this encoding we can break the binary string 001010101110111110100110 into:
 0010 1010 1000 1001 1010 0110 1111 = 2 + 8 9 + +  6 N/A
+
+
 We discard the operators that occur to the right of other operators, and we ignore the two bits not encoded 1111 and 1110, so this becomes 2+8+6, which we can use the eval() function figure out is 16. 
 The code for the decoding function can be found at the bottom of this post. 
 Now that we understand how to generate our formulas, we can see the point of the initial formula length variable. The first population generated will contain this number of symbols, however as we generate successive generations this number will decrease, due to the two case exceptions outlined above. Hence the specification initial.
@@ -63,7 +65,7 @@ The process also has a random chance of flipping one bit in the string from a 1 
 
 ![](https://raw.githubusercontent.com/JonathanKing01/jonathanking01.github.io/master/images/Answer.PNG)
 
-The whole file can be found on my github repository for it here: https://github.com/JonathanKing01/NumbersGeneticAlg
+The whole file can be found on my github repository for it here: [Genetic Algorithm File](https://github.com/JonathanKing01/NumbersGeneticAlg)
 
 
 
